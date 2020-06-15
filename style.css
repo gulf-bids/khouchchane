@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'badr-icon';
+  src:  url('fonts/badr-icon.eot?2okfty');
+  src:  url('fonts/badr-icon.eot?2okfty#iefix') format('embedded-opentype'),
+    url('fonts/badr-icon.ttf?2okfty') format('truetype'),
+    url('fonts/badr-icon.woff?2okfty') format('woff'),
+    url('fonts/badr-icon.svg?2okfty#badr-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.badr-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'badr-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.badr-phone:before {
+  content: "\e901";
+}
+.badr-home:before {
+  content: "\e900";
+}
+.badr-heart-1:before {
+  content: "\e911";
+}
+.badr-heart:before {
+  content: "\e940";
+}
+.badr-calendar:before {
+  content: "\e902";
+}
+.badr-cancel:before {
+  content: "\e903";
+}
+.badr-edit:before {
+  content: "\e90a";
+}
+.badr-envelope:before {
+  content: "\e90b";
+}
+.badr-favorite:before {
+  content: "\e90d";
+}
+.badr-left-arrow:before {
+  content: "\e915";
+}
+.badr-menu:before {
+  content: "\e917";
+}
+.badr-placeholder:before {
+  content: "\e91a";
+}
+.badr-profile:before {
+  content: "\e91e";
+}
+.badr-right-arrow:before {
+  content: "\e922";
+}
+.badr-search:before {
+  content: "\e923";
+}
+.badr-speech-bubble:before {
+  content: "\e927";
+}
+.badr-visible:before {
+  content: "\e930";
+}
+.badr-behance:before {
+  content: "\e933";
+}
+.badr-dribbble:before {
+  content: "\e934";
+}
+.badr-facebook:before {
+  content: "\e935";
+}
+.badr-instagram:before {
+  content: "\e936";
+}
+.badr-linkedin:before {
+  content: "\e937";
+}
+.badr-paypal:before {
+  content: "\e938";
+}
+.badr-snapchat:before {
+  content: "\e939";
+}
+.badr-soundcloud:before {
+  content: "\e93a";
+}
+.badr-twitter:before {
+  content: "\e93b";
+}
+.badr-umblr:before {
+  content: "\e93c";
+}
+.badr-vimeo:before {
+  content: "\e93d";
+}
+.badr-whatsapp:before {
+  content: "\e93e";
+}
+.badr-youtube:before {
+  content: "\e93f";
+}
