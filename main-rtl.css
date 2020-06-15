@@ -1,0 +1,96 @@
+body {
+  font-family: 'Tajawal', sans-serif !important;
+  text-align: right;
+  clear: right;
+}
+.showcase_title {
+    margin-left: 4rem;
+    margin-right: 0;
+}
+.sections_header-title {
+  letter-spacing: 0;
+}
+.sections_header-title::before {
+    font-size: 60px;
+    letter-spacing: 0;
+}
+.services_title::before {
+    content: "Ø®Ø¯Ù…Ø§ØªÙ†Ø§";
+}
+.portfolio_title::before {
+    content: "Ø£Ø¹Ù…Ø§Ù„Ù†Ø§";
+}
+.contact_title::before {
+    content: "Ø§ØªØµÙ„ Ø¨Ù†Ø§";
+}
+.doneload::after {
+    content: "Ø¹Ø¸ÙŠÙ… ØŒ Ù„Ù‚Ø¯ Ø±Ø£ÙŠØª Ø¬Ù…ÙŠØ¹ Ø§Ù„Ø£Ø¹Ù…Ø§Ù„ :)";
+}
+.load_more::after {
+  content: 'ØªØ­Ù…ÙŠÙ„ Ø§Ù„Ù…Ø²ÙŠØ¯';
+}
+.no_posts::after {
+  content: 'Ù„Ø§ ØªÙˆØ¬Ø¯ Ù…Ø´Ø§Ø±ÙƒØ§Øª Ø£Ùˆ Ø£Ø¹Ø¯ ØªØ­Ù…ÙŠÙ„ Ø§Ù„ØµÙØ­Ø© Ù…Ù† Ø¬Ø¯ÙŠØ¯';
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    padding-left: calc(1.5em + .75rem);
+    padding-right: 10px;
+    background-position: center left calc(.375em + .1875rem);
+}
+.was-validated textarea.form-control:invalid, textarea.form-control.is-invalid {
+    padding-right: 10px;
+    background-position: top calc(.375em + .1875rem) left calc(.375em + .1875rem);
+}
+.blog_info .blog_meta li i {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 0;
+}
+.post-pagination .page-numbers {
+    display: inline-block;
+}
+.search-btn {
+    left: 15px;
+    right: 0;
+}
+.cat-item span,
+.btn-icon {
+    left: 0;
+    right: auto;
+}
+.post_navigation-next .post_navigation-content {
+    text-align: left;
+}
+#contact_block {
+    float: right;
+}
+.contact_block-content i {
+    float: right;
+    margin-right: 0;
+    margin-left: 1.2rem;
+}
+.single__content-body.page .wpabContactForm .btn-see {
+    float: left;
+}
+.privacy-policy-page-link {
+    display: none;
+}
+.img_container {
+    float: right;
+}
+.form_container {
+    float: left;
+}
+.rating_value span {
+    float: right;
+    margin-left: 3px;
+}
+@media screen and (max-width: 768px) {
+  .showcase_title {
+      margin-left: 0;
+  }
+	.btn-icon.langue {
+    left: 0 !important;
+}
+}
