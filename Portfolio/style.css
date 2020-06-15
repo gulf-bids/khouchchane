@@ -1,0 +1,16 @@
+/*
+Theme Name: AbouhilalBadr Theme
+Theme URI: https://abouhilalbadr.com
+Author: abouhilal Badr
+Author URI: http://abouhilalbadr.com/
+Description: Abouhilal Badr Personal Website is a unique portfolio for my personal and professionel work and for blogs and tutorials.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, white, personal, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post.
+Text Domain: abouhilal-badr
+*/
+.logo img {
+    width: 70px;
+    height: 40px;
+}
