@@ -15,13 +15,13 @@ body {
     letter-spacing: 0;
 }
 .services_title::before {
-    content: "Ø®Ø¯Ù…Ø§ØªÙ†Ø§";
+    content: "خدماتنا";
 }
 .portfolio_title::before {
-    content: "Ø£Ø¹Ù…Ø§Ù„Ù†Ø§";
+    content: "أعمالنا";
 }
 .contact_title::before {
-    content: "Ø§ØªØµÙ„ Ø¨Ù†Ø§";
+    content: "اتصل بنا";
 }
 .doneload::after {
     content: "Ø¹Ø¸ÙŠÙ… ØŒ Ù„Ù‚Ø¯ Ø±Ø£ÙŠØª Ø¬Ù…ÙŠØ¹ Ø§Ù„Ø£Ø¹Ù…Ø§Ù„ :)";
